@@ -19,6 +19,7 @@ ext {
 dependencies {
 	implementation 'org.springframework.cloud:spring-cloud-starter-config'
 	implementation 'org.springframework.cloud:spring-cloud-starter-netflix-eureka-server'
+	implementation group: 'org.springframework.cloud', name: 'spring-cloud-starter-bootstrap', version: '3.0.4'
 	testImplementation 'org.springframework.boot:spring-boot-starter-test'
 }
 
